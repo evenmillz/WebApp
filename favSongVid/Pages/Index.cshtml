@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="color" class="text-center">
+    <h1 id="colorChange" onloadstart=" animateColor()" class="display-4">Favorite Song!</h1>
+    <p>I have so many favorite songs, it's hard to pick one,<br />
+    so I'll just share my favorite song right now!
+    </p>
+</div>
+    <iframe
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/B4-d2mmBBjY?si=E7QZ0zEIes2ng2SF" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+
